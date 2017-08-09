@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
 
-##List of Angular Lessons
+## List of Angular Lessons
 - Lesson 1 Hello World Angular 2
 - Lesson 2 Create a Simple Angular 2 Component
 - Lesson 3 Manage Angular 2 Elements with Events and Refs
