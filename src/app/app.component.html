@@ -1,7 +1,9 @@
 <div>
   <ul>
-    <app-simple-form *ngFor="let message of mail.messages" [message]="message">
+    <li *ngFor="let message of mail.messages">{{ message.text }}</li>
+  </ul>
+    <app-simple-form *ngFor="let message of mail.messages" [message]="message.text"
+    (update)="onUpdate(message.id,$event.text)">
       {{ message }}
     </app-simple-form>
-  </ul>
 </div>
